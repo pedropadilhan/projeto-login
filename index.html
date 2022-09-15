@@ -11,13 +11,24 @@
     <main>
         <section id="login">
             <div id="imagem">
-
+                <!--
+                USAREI A FOTO COMO BACKGROUND DA DIV
+                <img src="imagens/foto1.jpg" alt="Foto arvore">
+                  -->
             </div>
 
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="login.php" method="post"></form>
+                
+                <form action="login.php" method="post">
+                    <input type="text" name="usuario" id="iusuario" placeholder="Digite seu e-mail">
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha">
+
+                    <button type="submit" id="enviar">Enviar</button>
+                    <button>Esqueci a senha</button>
+                </form>
+            
 
             </div>
         </section>
