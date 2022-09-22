@@ -59,24 +59,24 @@ section#login > div#formulario{
 
 section#login > div#formulario form{
     display: flex;
-    flex-direction: column;
-    margin-top: 10px;  
+    flex-direction: column; 
 }
 
 section#login > div#formulario > form > input{
     background-color: #85968871;
-    margin-top: 5px;
+    margin-top: 10px;
     height: 35px;
     border: none;
 }
 
 section#login > div#formulario > form > button{
     border: none;
-    margin-top: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
     height: 35px;
 }
 
 section#login > div#formulario > form > button#enviar{
     border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
 }
