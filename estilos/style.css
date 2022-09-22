@@ -45,38 +45,38 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
 }
 
-section#login >  div#imagem {
-    /* display: block; */
+section#login>div#imagem {
+    display: block;
     background: #7e9737 url(../imagens/foto1.jpg) no-repeat;
     background-size: contain;
     height: 200px;
 }
 
-section#login > div#formulario{
-    /* display: block; */
+section#login>div#formulario {
+    display: block;
     padding: 10px;
 }
 
-section#login > div#formulario form{
+section#login>div#formulario form {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-section#login > div#formulario > form > input{
+section#login > div#formulario > form > input {
     background-color: #85968871;
     margin-top: 10px;
     height: 35px;
     border: none;
 }
 
-section#login > div#formulario > form > button{
+section#login>div#formulario>form>button {
     border: none;
     border-radius: 10px;
     margin-top: 10px;
     height: 35px;
 }
 
-section#login > div#formulario > form > button#enviar{
+section#login>div#formulario>form>button#enviar {
     border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
 }

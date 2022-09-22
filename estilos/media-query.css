@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+-----------------------------
+ok Pequenas telas: até 600px
+ok Celular: 600px até 768px
+Tablets: 768px até 992px
+Desktop: 993px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    section#login {
+        width: 80vw;
+    }
+
+    section#login>div#imagem {
+        background-image: url(../imagens/foto2.jpg);
+        background-position: center;
+        background-size: cover;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login>div#formulario {
+        float: right;
+        width: 70%;
+    }
+
+    section#login>div#formulario h1 {
+        margin-top: 80px;
+    }
+
+    section#login>div#formulario>form {
+        margin-top: 50px;
+    }
+
+    section#login>div#formulario>form>input {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    section#login>div#formulario>form>input#iusuario {
+        margin-bottom: 5px;
+    }
+
+    section#login>div#formulario>form>button {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    section#login>div#formulario>form>button#enviar {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+@media screen and (min-width: 993px) {
+    section#login {
+        width: 990px;
+    }
+
+    section#login>div#imagem {
+        background-image: url(../imagens/foto2.jpg);
+        background-size: cover;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login>div#formulario {
+        float: right;
+        width: 50%;
+        margin-top: 70px;
+    }
+
+    section#login>div#formulario p{
+        margin-bottom: 20px;
+    }
+
+    section#login>div#formulario>form>button#enviar{
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    
+}
