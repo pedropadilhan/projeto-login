@@ -9,10 +9,12 @@ Desktop: 993px até 1200px
 Grandes telas: acima de 1200px
 */
 
+/* TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login>div#imagem {
@@ -29,39 +31,16 @@ Grandes telas: acima de 1200px
         width: 70%;
     }
 
-    section#login>div#formulario h1 {
-        margin-top: 80px;
-    }
 
-    section#login>div#formulario>form {
-        margin-top: 50px;
-    }
-
-    section#login>div#formulario>form>input {
-        width: 50%;
-        margin: 0 auto;
-    }
-
-    section#login>div#formulario>form>input#iusuario {
-        margin-bottom: 5px;
-    }
-
-    section#login>div#formulario>form>button {
-        width: 70%;
-        margin: 0 auto;
-    }
-
-    section#login>div#formulario>form>button#enviar {
-        margin-top: 40px;
-        margin-bottom: 15px;
-    }
 
 
 }
 
+/* DESKTOP */
 @media screen and (min-width: 993px) {
     section#login {
-        width: 990px;
+        width: 950px;
+        height: 400px;
     }
 
     section#login>div#imagem {
@@ -75,17 +54,16 @@ Grandes telas: acima de 1200px
     section#login>div#formulario {
         float: left;
         width: 50%;
-        margin-top: 70px;
-    }
-
-    section#login>div#formulario p{
-        margin-bottom: 20px;
-    }
-
-    section#login>div#formulario>form>button#enviar{
         margin-top: 30px;
-        margin-bottom: 5px;
     }
 
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+        margin: 20px 0px;
+    }
     
 }
