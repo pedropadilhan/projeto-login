@@ -56,18 +56,22 @@ section#login>div#formulario {
     display: block;
     padding: 10px;
 }
+div#formulario h1{
+    text-align: center;
+    padding: 10px;
+}
 
 section#login>div#formulario form {
     display: flex;
     flex-direction: column;
 }
 
-section#login > div#formulario > form > input {
+/* section#login > div#formulario > form > input {
     background-color: #85968871;
     margin-top: 10px;
     height: 35px;
     border: none;
-}
+} */
 
 section#login>div#formulario>form>button {
     border: none;
